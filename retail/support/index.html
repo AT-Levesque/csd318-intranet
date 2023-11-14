@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Testing</title>
+    <style>
+        p.header {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 28px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+    
+        }
+
+        p.subheader {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            margin: 0;
+            padding: 10pt;
+            text-align: center;
+    
+        }
+
+        div.center {
+            width: 50%;
+            margin: 0 auto;
+
+        }
+
+        div.productdisplay
+        {
+            text-align: center;
+            display:block;
+            width: 100%;
+
+        }
+
+        span.box {
+            display:inline-block;
+            margin: 1pt;
+            width: 25%;
+            border: 1pt solid black;
+            padding: 5pt;
+            text-align: center;
+            margin-bottom: 10pt;
+        }
+
+        span.menu {
+            display: inline-block;
+            width: 150px;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 19px;
+        }
+    
+    </style>
+</head> 
+<body>
+    <p class='header'><img src="/retail/images/retail-logo.jpg"></p>
+    <nav>
+        <div class="center">
+            <span class="menu"><a href="/retail/products/index.html">Products</a></span>
+            <span class="menu"><a href="/retail/services/index.html">Services</a></span>
+            <span class="menu"><a href="/retail/about/index.html">About Us</a></span>
+            <span class="menu"><a href="/retail/support/index.html">Contact Us</a></span>
+        </div>
+    </nav>
+    <div id="main" class="productdisplay">
+        <p class="subheader">Trending Products</p>        
+        <span class="box">
+            <img src="images/can.jpg" style="width:200px;height:200px;" alt="product1">
+            <p>Product 1</p>
+            <p>Product 1 Description</p>
+        </span>
+        <span class="box">
+            <img src="images/chip.jpg" style="width:200px;height:200px;" alt="product2">
+            <p>Product 2</p>
+            <p>Product 2 Description</p>
+        </span>
+        <span class="box">
+            <img src="images/sample.jpg" style="width:200px;height:200px;" alt="product3">
+            <p>Product 3</p>
+            <p>Product 3 Description</p>
+        </span>
+    </div>
+</body>
+</html>
